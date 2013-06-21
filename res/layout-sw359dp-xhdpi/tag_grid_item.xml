@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/penmemo_paper_thumb_stacked" android:layout_width="119.0dip" android:layout_height="185.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bg_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/thumb" android:paddingLeft="6.0dip" android:paddingTop="7.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="3.0dip" android:layout_marginBottom="3.0dip" android:scaleType="fitXY" />
+        <TextView android:textSize="16.0dip" android:typeface="sans" android:textColor="#ff382b0b" android:gravity="center" android:id="@id/tag" android:background="@drawable/folder_text_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="7.5dip" android:layout_marginBottom="9.0dip" android:singleLine="true" android:includeFontPadding="false" android:shadowColor="#ffc8c8c8" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_alignParentBottom="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/memo_tag" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <CheckBox android:id="@id/check" android:focusable="false" android:visibility="invisible" android:clickable="false" android:duplicateParentState="true" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

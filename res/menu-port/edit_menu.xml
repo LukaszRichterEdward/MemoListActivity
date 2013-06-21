@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_actionbar_cancel" android:title="@string/cancel" android:showAsAction="always|withText" />
+    <item android:id="@id/menu_actionbar_save" android:title="@string/save" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/drawable_actionbar_plus" android:id="@id/menu_actionbar_plus" android:title="@string/tutorial_tool_new_btn" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_rename" android:id="@id/menu_set_title" android:title="@string/rename" />
+    <item android:icon="@drawable/drawable_ic_menu_sharevia" android:id="@id/menu_sharevia" android:title="@string/share_via" />
+    <item android:icon="@drawable/drawable_ic_menu_handwriting" android:id="@id/menu_recognize" android:title="@string/recognize_to_text" />
+    <item android:icon="@drawable/drawable_ic_menu_export" android:id="@id/menu_export" android:title="@string/export" />
+    <item android:icon="@drawable/drawable_ic_menu_upload" android:id="@id/menu_sync" android:title="@string/sync" />
+    <item android:icon="@drawable/ic_menu_save_as" android:id="@id/menu_saveas" android:title="@string/save_as" />
+    <item android:icon="@drawable/ic_menu_add_picture" android:id="@id/submenu_add_picture" android:title="@string/add_picture">
+        <menu>
+            <item android:id="@id/submenu_picture" />
+            <item android:id="@id/submenu_capture_picture" />
+            <item android:id="@id/submenu_clip_art" />
+            <item android:id="@id/submenu_clipboard" />
+            <item android:id="@id/submenu_map" />
+        </menu>
+    </item>
+    <item android:icon="@drawable/ic_menu_add_text" android:id="@id/menu_edit_tag" android:title="@string/add_tag" />
+    <item android:icon="@drawable/ic_menu_favorite" android:id="@id/menu_mark_as_favorite" android:title="@string/mark_as_favorite" />
+    <item android:icon="@drawable/ic_menu_change_theme" android:id="@id/change_background" android:title="@string/change_background" />
+    <item android:icon="@drawable/ic_menu_link_to_splanner" android:id="@id/menu_link_to_splanner" android:title="@string/link_to_splanner" />
+    <item android:icon="@drawable/ic_menu_lock" android:id="@id/menu_lock" android:title="@string/lock" />
+    <item android:icon="@drawable/ic_menu_set_as" android:id="@id/menu_set_as" android:title="@string/set_as" />
+    <item android:icon="@drawable/drawable_ic_menu_print" android:id="@id/menu_print" android:title="@string/print" />
+</menu>

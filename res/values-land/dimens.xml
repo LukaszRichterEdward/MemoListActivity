@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_top_margin">6.0dip</dimen>
+    <dimen name="edit_margin_left_right">20.0dip</dimen>
+    <dimen name="password_keyboard_key_height">46.0dip</dimen>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_1">#ffebebeb</color>
+    <color name="color_2">#ff000000</color>
+    <color name="color_3">#ff6e9cba</color>
+    <color name="color_5">#ffbebebe</color>
+    <color name="color_6">#ffa0a0a0</color>
+    <color name="color_25">#ffcccccc</color>
+    <color name="color_28">#ffebebeb</color>
+    <color name="color_29">#ffc8c8c8</color>
+    <color name="color_30">#ff3484c8</color>
+    <color name="color_31">#ff428eba</color>
+    <color name="color_33">#ff00a8ff</color>
+    <color name="color_140">#ff009933</color>
+    <color name="color_141">#ff0099ff</color>
+    <color name="color_151">#ff00aeef</color>
+    <color name="color_249">#ff342517</color>
+    <color name="edit_title_text_color">#ff383838</color>
+    <color name="edit_tag_text_color">#ff828282</color>
+    <color name="vr_time_text_color">#ffeaeaea</color>
+    <item type="color" name="tutorial_text_color">@color/color_249</item>
+    <color name="tutorial_btn_color">#ff44423c</color>
+    <color name="transparent">#00000000</color>
+    <color name="edit_actionbar_title_text">#ff342517</color>
+    <color name="edit_actionbar_title_background">#00000000</color>
+    <color name="edit_actionbar_title_hint">#ff757575</color>
+    <color name="voice_timer_half_text">#7f413f3b</color>
+    <color name="voice_timer_text">#ff413f3b</color>
+    <color name="extra_button_color">#ff5d5a53</color>
+    <color name="search_item_highlight">#ff0678cb</color>
+    <color name="preview_title_color">#ff78523a</color>
+    <color name="tutorial_dialog_text">#ffc8c8c8</color>
+    <color name="equation_button_text">#ff78523a</color>
+    <color name="mode_toast_text">#ffd7d7d7</color>
+    <color name="highlight_text_color">#ff33b5e5</color>
+</resources>

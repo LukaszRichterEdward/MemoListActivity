@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/nomemo_img" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:src="@drawable/drawable_nosmemos_icon" />
+    <TextView android:textSize="16.0dip" android:textColor="#ff6e5a40" android:layout_gravity="center" android:id="@id/list_nomemo_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="@string/no_memos" android:shadowColor="#4cffffff" android:shadowDy="1.0" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/nomemo_img_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/memo_noitem_add_text" />
+            <TextView android:textSize="15.0dip" android:textColor="#ff66523c" android:id="@id/nomemo_text_tmemo" android:layout_width="215.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/noitem_textmode" android:shadowColor="#ffffffff" android:shadowDy="1.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+            <ImageView android:id="@id/nomemo_img_draw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/memo_noitem_add_color" />
+            <TextView android:textSize="15.0dip" android:textColor="#ff66523c" android:id="@id/nomemo_text_pmemo" android:layout_width="215.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/noitem_drawmode" android:shadowColor="#ffffffff" android:shadowDy="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

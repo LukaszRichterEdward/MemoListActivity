@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_edit_text" android:id="@id/list_context_edit" android:title="@string/edit" />
+    <item android:icon="@drawable/ic_menu_delete_clear_discard_delete_all_remove_erase" android:id="@id/list_context_delete" android:title="@string/delete" />
+    <item android:icon="@drawable/ic_menu_share_video_track_via" android:id="@id/list_context_share" android:title="@string/share_via" />
+    <item android:icon="@drawable/ic_menu_upload_export_publish" android:id="@id/list_context_export" android:title="@string/export" />
+    <item android:icon="@drawable/tw_action_bar_icon_upload_disabled_holo_dark" android:id="@id/list_context_sync" android:title="@string/sync" />
+    <item android:icon="@drawable/ic_menu_forward_export_send" android:id="@id/link_to_splanner" android:title="@string/link_to_splanner" />
+    <item android:id="@id/context_folder_rename" android:title="@string/rename" />
+    <item android:icon="@drawable/ic_menu_lock" android:id="@id/list_context_lock" android:title="@string/lock" />
+    <item android:icon="@drawable/ic_menu_set_as" android:id="@id/list_context_setas" android:title="@string/set_as" />
+    <item android:icon="@drawable/ic_menu_print" android:id="@id/list_context_print" android:title="@string/print" />
+</menu>

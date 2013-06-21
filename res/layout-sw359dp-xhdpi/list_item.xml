@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="99.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/normal_item_bg_layout" android:paddingLeft="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/thumbLayout" android:layout_width="56.0dip" android:layout_height="82.0dip" android:layout_marginTop="9.0dip" android:layout_marginBottom="9.0dip">
+            <View android:id="@id/list_item_stacked_selector" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/list_item_image" android:paddingLeft="1.0dip" android:paddingTop="1.0dip" android:paddingRight="2.5dip" android:paddingBottom="2.5dip" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="2.0dip" android:scaleType="fitXY" />
+            <View android:id="@id/list_item_selector" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="2.0dip" />
+            <LinearLayout android:layout_gravity="bottom|right|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:layout_marginBottom="5.0dip">
+                <ImageView android:id="@id/has_voice" android:background="@drawable/penmemo_paper_thumb_01_voice" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:contentDescription="@string/access_voice" />
+                <ImageView android:id="@id/favorite" android:background="@drawable/penmemo_paper_thumb_01_fav" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:contentDescription="@string/access_favorate" />
+                <ImageView android:id="@id/item_cloud" android:background="@drawable/smemo_cloud" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/textLayout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="25.0dip" android:layout_weight="1.0" android:layout_centerVertical="true">
+            <TextView android:ellipsize="end" android:id="@id/list_item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_title" android:singleLine="true" android:includeFontPadding="false" style="@style/list_item_title" />
+            <LinearLayout android:orientation="vertical" android:id="@id/list_item_more_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/list_item_date" android:layout_width="fill_parent" android:layout_height="22.0dip" android:singleLine="true" android:includeFontPadding="false" style="@style/list_item_moredata" />
+                <TextView android:ellipsize="end" android:gravity="top" android:id="@id/list_item_tag" android:layout_width="fill_parent" android:layout_height="25.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/list_item_moredata" />
+            </LinearLayout>
+        </LinearLayout>
+        <CheckBox android:id="@id/item_check" android:focusable="false" android:visibility="gone" android:clickable="false" android:duplicateParentState="true" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="19.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:id="@id/item_reorder" android:background="@drawable/drawable_reorder_btn" android:focusable="false" android:visibility="gone" android:duplicateParentState="true" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="8.5dip" />
+    </LinearLayout>
+    <View android:id="@id/list_item_dim" android:background="#66010101" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

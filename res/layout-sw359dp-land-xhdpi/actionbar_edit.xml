@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_edit_actionbar_customview" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/ll_edit_title" android:background="@drawable/drawable_image_focus_only" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:textSize="18.0dip" android:textColor="@drawable/drawable_memolistactivity_actionbar_textcolor" android:textColorHint="@drawable/drawable_memolistactivity_actionbar_textcolor" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/tv_edit_title" android:background="#00000000" android:focusable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:maxWidth="400.0dip" android:hint="@string/enter_title" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

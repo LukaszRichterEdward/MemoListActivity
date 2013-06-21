@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/penmemo_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/shadow_img" android:background="@drawable/memo_header_bg_shadow" android:layout_width="fill_parent" android:layout_height="7.0dip" />"
+<LinearLayout android:orientation="vertical" android:id="@id/select_mode_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="-7.0dip">
+                <LinearLayout android:orientation="horizontal" android:id="@id/check_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/font_size_44" android:textColor="#ff2c1f19" android:gravity="center_vertical" android:id="@id/list_select_all" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select_all" android:layout_weight="1.0" />
+                    <CheckBox android:layout_gravity="center_vertical" android:id="@id/select_all_cb" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="7.0dip" />
+                </LinearLayout>
+                <View android:background="#ff635138" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-10.0dip" android:layout_weight="1.0">
+                <com.diotek.q1_penmemo.widget.DragableGridView android:id="@id/penmemo_grid_list" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:listSelector="@drawable/drawable_grid_selector" android:stretchMode="spacingWidth" android:columnWidth="119.0dip" android:numColumns="3" />
+                <com.diotek.q1_penmemo.widget.DragableListView android:id="@id/penmemo_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/list_view_item_background" android:cacheColorHint="#00000000" android:divider="@drawable/memo_header_bg_shadow" android:dividerHeight="0.5dip" />
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/nomemo_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <include layout="@layout/nomemo" />
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/bottom_soft_layout" android:background="@drawable/tw_softkeyview_bg" android:paddingLeft="10.0dip" android:paddingTop="6.0dip" android:paddingRight="10.0dip" android:paddingBottom="3.5dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="54.5dip">
+                <Button android:textSize="16.0dip" android:id="@id/alldone_btn" android:background="@drawable/drawable_winset_btn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="2.0dip" android:text="@string/sync_all" android:layout_weight="1.0" />
+                <Button android:textSize="16.0dip" android:id="@id/done_btn" android:background="@drawable/drawable_winset_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/delete" android:layout_weight="1.0" />
+                <Button android:textSize="16.0dip" android:id="@id/cancel_btn" android:background="@drawable/drawable_winset_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:text="@string/cancel" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/sortby_dummy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:id="@id/syncto_dummy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RelativeLayout android:orientation="vertical" android:id="@id/nosdcard_layout" android:background="#ff000000" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/nosdcard" android:layout_width="108.0dip" android:layout_height="134.0dip" android:src="@drawable/sd_card_empty" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="15.0sp" android:textColor="#ffbebebe" android:id="@id/list_nosdcard_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/sdcard_used_storage" android:layout_below="@id/nosdcard" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

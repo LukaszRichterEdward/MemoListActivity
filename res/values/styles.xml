@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="top_bar_layout_btn_style">
+        <item name="android:background">#00000000</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="tutorial_body_title">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff342517</item>
+        <item name="android:gravity">top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="tutorial_tool_bar_title">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">#ff342517</item>
+        <item name="android:gravity">top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="tutorial_body_text">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">#ff342517</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_marginBottom">7.0dip</item>
+    </style>
+    <style name="tutorial_tool_bar_body_text">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">#ff686764</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="tutorial_dialog_text">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">@color/tutorial_dialog_text</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_marginBottom">7.0dip</item>
+    </style>
+    <style name="tutorial_text">
+        <item name="android:textSize">@dimen/font_size_38</item>
+        <item name="android:textColor">@color/color_249</item>
+        <item name="android:gravity">top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_marginBottom">4.0dip</item>
+    </style>
+    <style name="tutorial_text.header" parent="@style/tutorial_text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">29.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="tutorial_text.header2" parent="@style/tutorial_text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">30.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="tutorial_text.header3" parent="@style/tutorial_text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffa75f0d</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">30.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Theme_ActionBar_Main" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:textStyle">normal</item>
+        <item name="android:windowAnimationStyle">@style/Smemo.Animation.Activity</item>
+        <item name="android:actionBarStyle">@style/Theme_ActionBar_Main.ActionBarStyle</item>
+        <item name="android:actionMenuTextColor">@drawable/drawable_memolistactivity_actionbar_textcolor</item>
+        <item name="android:actionBarItemBackground">@drawable/drawable_header_button_main</item>
+    </style>
+    <style name="Theme_ActionBar_Main.ActionBarStyle" parent="@*android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@drawable/memo_header_bg</item>
+        <item name="android:titleTextStyle">@style/Theme_ActionBar_Main.ActionBar.TitleTextStyle</item>
+    </style>
+    <style name="Theme_ActionBar_Main.ActionBar.TitleTextStyle" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffebc67f</item>
+    </style>
+    <style name="Theme_ActionBar_Main.ActionBar.SubTitleTextStyle" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title" />
+    <style name="Theme_ActionBar_Edit" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@drawable/drawable_memolistactivity_actionbar_textcolor</item>
+        <item name="android:windowAnimationStyle">@style/Smemo.Animation.Activity</item>
+        <item name="android:actionBarStyle">@style/Theme_ActionBar_Main.ActionBarStyle</item>
+        <item name="android:actionModeBackground">@drawable/memo_header_bg</item>
+        <item name="android:actionModeCloseDrawable">@drawable/drawable_actionmode_close</item>
+        <item name="android:actionOverflowButtonStyle">@style/EditActivity.OverFlowButton</item>
+        <item name="android:alertDialogTheme">@style/EditActivity.AlertDialog</item>
+        <item name="android:actionModeCutDrawable">@drawable/drawable_actionmode_cut</item>
+        <item name="android:actionModeCopyDrawable">@drawable/drawable_actionmode_copy</item>
+        <item name="android:actionModePasteDrawable">@drawable/drawable_actionmode_paste</item>
+        <item name="android:actionMenuTextColor">@drawable/drawable_memolistactivity_actionbar_textcolor</item>
+        <item name="android:actionModeSelectAllDrawable">@drawable/drawable_actionmode_selectall</item>
+        <item name="android:actionBarItemBackground">@drawable/drawable_header_button_main</item>
+    <item name="android:preferenceFrameLayoutStyle">@drawable/drawable_actionmode_clipboard</item>
+    </style>
+    <style name="actionModeCloseButtonStyle" parent="@*android:style/Widget.ActionButton.CloseMode">
+        <item name="android:actionModeCloseButtonStyle">@style/EditActivity.ActionButton.Close</item>
+    </style>
+    <style name="EditActivity.AlertDialog" parent="@*android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:actionModeBackground">@drawable/memo_header_bg</item>
+        <item name="android:actionModeCloseDrawable">@drawable/drawable_actionmode_close</item>
+        <item name="android:actionOverflowButtonStyle">@style/EditActivity.OverFlowButton</item>
+        <item name="android:actionModeCutDrawable">@drawable/drawable_actionmode_cut</item>
+        <item name="android:actionModeCopyDrawable">@drawable/drawable_actionmode_copy</item>
+        <item name="android:actionModePasteDrawable">@drawable/drawable_actionmode_paste</item>
+        <item name="android:actionMenuTextColor">@drawable/drawable_memolistactivity_actionbar_textcolor</item>
+        <item name="android:actionModeSelectAllDrawable">@drawable/drawable_actionmode_selectall</item>
+    </style>
+    <style name="Theme_ActionBar_Edit.ActionBarStyle" parent="@*android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/Theme_ActionBar_Edit.ActionBar.TitleTextStyle</item>
+        <item name="android:subtitleTextStyle">@style/Theme_ActionBar_Edit.ActionBar.SubTitleTextStyle</item>
+    </style>
+    <style name="Theme_ActionBar_Edit.ActionBar.TitleTextStyle" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">#ff342517</item>
+    </style>
+    <style name="Theme_ActionBar_Edit.ActionBar.SubTitleTextStyle" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textColor">#ff342517</item>
+    </style>
+    <style name="Theme_ActionBar_Edit.ActionBar.MenuTextStyle" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textColor">#ff342517</item>
+    </style>
+    <style name="Theme_ActionBar_Change_Background" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:actionBarStyle">@style/Theme_ActionBar_Change_Background.ActionBarStyle</item>
+        <item name="android:actionMenuTextColor">#ffffffff</item>
+    </style>
+    <style name="Theme_ActionBar_Change_Background.ActionBarStyle" parent="@*android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@drawable/tw_ab_transparent_dark_holo</item>
+        <item name="android:titleTextStyle">@style/Theme_ActionBar_Change_Background.ActionBar.TitleTextStyle</item>
+        <item name="android:subtitleTextStyle">@style/Theme_ActionBar_Change_Background.ActionBar.SubTitleTextStyle</item>
+    </style>
+    <style name="Theme_ActionBar_Change_Background.ActionBar.TitleTextStyle" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title" />
+    <style name="Theme_ActionBar_Change_Background.ActionBar.SubTitleTextStyle" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textColor">#ff809ab3</item>
+    </style>
+    <style name="Theme_ActionBar_Change_Background.ActionBar.MenuTextStyle" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffaecdea</item>
+    </style>
+    <style name="list_item_title">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@color/color_list_item_title</item>
+    </style>
+    <style name="list_item_moredata">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/color_list_item_date</item>
+    </style>
+    <style name="EditActivity.OverFlowButton" parent="@*android:style/Widget.ActionButton.Overflow">
+        <item name="android:src">@drawable/headericon_moreoverflow</item>
+    </style>
+    <style name="EditActivity.ActionButton.Close" parent="@*android:style/Widget.ActionButton.CloseMode">
+        <item name="android:background">@drawable/drawable_header_button_edit</item>
+    </style>
+    <style name="Theme.SearchActivity" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:actionBarStyle">@style/Theme_ActionBar_Main.ActionBarStyle</item>
+        <item name="android:actionMenuTextColor">@color/color_1</item>
+        <item name="android:actionBarItemBackground">@drawable/drawable_header_button_main</item>
+    </style>
+    <style name="SecurityPreferenceButtonContainer" parent="@*android:style/DeviceDefault.SegmentedButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:weightSum">2.0</item>
+        <item name="android:dividerPadding">8.0dip</item>
+    </style>
+    <style name="SecurityPreferenceButton" parent="@*android:style/Widget.DeviceDefault.Button.Borderless">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Smemo.Animation.Activity" parent="@*android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+</resources>

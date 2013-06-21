@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="add_picture_item">
+        <item>Photo</item>
+        <item>Prendre une photo</item>
+        <item>Clipart</item>
+        <item>Presse-papiers</item>
+        <item>Plan</item>
+    </string-array>
+    <string-array name="add_picture_no_clipboard_item">
+        <item>Photo</item>
+        <item>Prendre une photo</item>
+        <item>Clipart</item>
+        <item>Plan</item>
+    </string-array>
+    <string-array name="About_Share_List">
+        <item>AllShare</item>
+        <item>Bluetooth</item>
+        <item>Gmail</item>
+        <item>Messagerie</item>
+        <item>Picasa</item>
+        <item>Courriel</item>
+    </string-array>
+    <string-array name="About_Share">
+        <item>AllShare</item>
+        <item>Bluetooth</item>
+        <item>Gmail</item>
+        <item>Messagerie</item>
+        <item>Picasa</item>
+        <item>Calendrier S</item>
+        <item>Courriel</item>
+    </string-array>
+    <string-array name="About_Share_Recognition">
+        <item>Gmail</item>
+        <item>Courriel</item>
+        <item>Message</item>
+        <item>Réseau social</item>
+        <item>Calendrier S</item>
+        <item>Wifi</item>
+    </string-array>
+    <string-array name="About_SPlanner">
+        <item>Nouvel évènement</item>
+        <item>Nouvelle tâche</item>
+        <item>Lien</item>
+    </string-array>
+    <string-array name="Set_as_items">
+        <item>Icône du contact</item>
+        <item>"Fond d'écran d'accueil"</item>
+        <item>"Fond d'écran de verrouillage"</item>
+        <item>Écrans accueil et verr.</item>
+    </string-array>
+    <string-array name="insert_item">
+        <item>Dep. presse-papiers</item>
+        <item>Depuis Maps</item>
+    </string-array>
+</resources>

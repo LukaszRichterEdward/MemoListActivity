@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/drawable_actionbar_delete" android:id="@id/menu_actionbar_delete" android:title="@string/delete" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/drawable_actionbar_plus" android:id="@id/menu_actionbar_plus" android:title="@string/tutorial_tool_new_btn" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_rename" android:id="@id/menu_set_title" android:title="@string/rename" />
+    <item android:icon="@drawable/drawable_ic_menu_sharevia" android:id="@id/menu_sharevia" android:title="@string/share_via" />
+    <item android:icon="@drawable/drawable_ic_menu_export" android:id="@id/menu_export" android:title="@string/export" />
+    <item android:icon="@drawable/drawable_ic_menu_upload" android:id="@id/menu_sync" android:title="@string/sync" />
+    <item android:icon="@drawable/ic_menu_lock" android:id="@id/menu_lock" android:title="@string/lock" />
+    <item android:icon="@drawable/ic_menu_set_as" android:id="@id/menu_set_as" android:title="@string/set_as" />
+    <item android:icon="@drawable/drawable_ic_menu_print" android:id="@id/menu_print" android:title="@string/print" />
+</menu>

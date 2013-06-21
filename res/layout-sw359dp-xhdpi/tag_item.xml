@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip">
+        <AutoCompleteTextView android:textSize="18.0dip" android:typeface="sans" android:textColor="#ffcccccc" android:layout_gravity="center_vertical" android:id="@id/tag_edit" android:background="@drawable/drawable_search_edit_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:singleLine="true" android:capitalize="words" android:layout_weight="1.0" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/tag_delete_btn" android:background="@drawable/drawable_add_remove_bg" android:layout_width="53.0dip" android:layout_height="fill_parent" android:src="@drawable/drawable_add_remove_btn" android:scaleType="centerInside" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/equation_bg" android:layout_width="fill_parent" android:layout_height="145.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/result_view" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="bottom|right|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip">
+        <ImageView android:background="@drawable/equation_btn_bg" android:layout_width="256.0dip" android:layout_height="36.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="256.0dip" android:layout_height="36.0dip">
+            <Button android:textSize="14.0dip" android:textColor="@color/equation_button_text" android:id="@id/result_search" android:background="@drawable/drawable_equation_left_btn" android:layout_width="78.0dip" android:layout_height="36.0dip" android:text="@string/recognizer_search" android:drawableLeft="@drawable/equation_search_icon" />
+            <ImageView android:background="@drawable/equation_btn_divider" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+            <Button android:textSize="14.0dip" android:textColor="@color/equation_button_text" android:id="@id/result_calculate" android:background="@drawable/drawable_equation_center_btn" android:layout_width="73.0dip" android:layout_height="36.0dip" android:text="@string/recognizer_calculate" />
+            <ImageView android:background="@drawable/equation_btn_divider" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+            <Button android:textSize="14.0dip" android:textColor="@color/equation_button_text" android:id="@id/result_insert" android:background="@drawable/drawable_equation_center_btn" android:layout_width="58.0dip" android:layout_height="36.0dip" android:text="@string/recognizer_insert" />
+            <ImageView android:background="@drawable/equation_btn_divider" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+            <Button android:textSize="14.0dip" android:textColor="@color/equation_button_text" android:id="@id/result_clear" android:background="@drawable/drawable_equation_right_btn" android:layout_width="47.0dip" android:layout_height="36.0dip" android:text="@string/recognizer_clear" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

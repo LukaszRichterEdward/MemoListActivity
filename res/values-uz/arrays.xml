@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="add_picture_item">
+        <item>Rasm</item>
+        <item>Rasmga olish</item>
+        <item>Klipart</item>
+        <item>Bufer</item>
+        <item>Xarita</item>
+    </string-array>
+    <string-array name="add_picture_no_clipboard_item">
+        <item>Rasm</item>
+        <item>Rasmga olish</item>
+        <item>Klipart</item>
+        <item>Xarita</item>
+    </string-array>
+    <string-array name="About_Share_List">
+        <item>AllShare</item>
+        <item>Bluetooth</item>
+        <item>Gmail</item>
+        <item>Xabar yuborish</item>
+        <item>Picasa</item>
+        <item>Elektron pochta</item>
+    </string-array>
+    <string-array name="About_Share">
+        <item>AllShare</item>
+        <item>Bluetooth</item>
+        <item>Gmail</item>
+        <item>Xabar yuborish</item>
+        <item>Picasa</item>
+        <item>S Planner</item>
+        <item>Elektron pochta</item>
+    </string-array>
+    <string-array name="About_Share_Recognition">
+        <item>Gmail</item>
+        <item>Elektron pochta</item>
+        <item>Xabar</item>
+        <item>SNS</item>
+        <item>S Planner</item>
+        <item>Wi-Fi</item>
+    </string-array>
+    <string-array name="About_SPlanner">
+        <item>Yangi hodisa</item>
+        <item>Yangi topshiriq</item>
+        <item>link</item>
+    </string-array>
+    <string-array name="Set_as_items">
+        <item>Kontakt ikonchasi</item>
+        <item>Asosiy ekran fon rasmi</item>
+        <item>Bloklash ekrani fon rasmi</item>
+        <item>Asosiy va bloklash ekrani</item>
+    </string-array>
+    <string-array name="insert_item">
+        <item>Buferdan</item>
+        <item>Xaritalardan</item>
+    </string-array>
+</resources>
